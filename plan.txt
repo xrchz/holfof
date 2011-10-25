@@ -1,0 +1,13 @@
+Relevant papers:
+- An LCF-Style Interface between HOL and First-Order Logic, Joe Hurd
+- Translating Higher-Order Clauses to First-Order Clauses, Jia Meng and
+  Lawrence C. Paulson
+
+Pieces:
+- conversion to rewrite abstractions in combinatory form
+- predictable translation from an abstraction-free boolean goal term, plus
+  axiom terms, to a FOF problem
+- proof reconstruction from Metis kernel to OpenTheory kernel, including
+  reverse translation from FOF
+- similar to above but from TSTP format?
+- (CNF or NNF conversions, maybe)
