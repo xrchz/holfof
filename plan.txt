@@ -1,10 +1,11 @@
 Relevant papers:
-- An LCF-Style Interface between HOL and First-Order Logic, Joe Hurd
+- An LCF-Style Interface between HOL and First-Order Logic, Joe Hurd (CADE 2002)
 - Translating Higher-Order Clauses to First-Order Clauses, Jia Meng and
-  Lawrence C. Paulson
+  Lawrence C. Paulson (JAR 2008)
 
 Pieces:
 - conversion to rewrite abstractions in combinatory form
+    - done at cam.xrchz.net/skico.cgi, reusing src/metis/normalForms
 - predictable translation from an abstraction-free boolean goal term, plus
   axiom terms, to a FOF problem
 - proof reconstruction from Metis kernel to OpenTheory kernel, including
